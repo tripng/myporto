@@ -8,12 +8,17 @@
       <div class="content">
         <ul>
           <li>
-            <a href="https://ratihharry.netlify.app" class="link project-list">
+            <a
+              href="https://ratihharry.netlify.app"
+              target="_blank"
+              class="link project-list"
+            >
               <img src="~/assets/img/project/wedding.png" alt="" />
               <span class="date">Wedding / 2021</span>
               <h1 class="project-title">RatihHarry</h1>
             </a>
             <a
+              target="_blank"
               href="http://tripananggung.nurulfikri.com/"
               class="link project-list"
             >
@@ -22,6 +27,7 @@
               <h1 class="project-title">Assignment MBKM</h1>
             </a>
             <a
+              target="_blank"
               href="https://tripng.github.io/myportfolio/"
               class="link project-list"
             >
