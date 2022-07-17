@@ -8,7 +8,7 @@
       <div class="content">
         <div class="info">
           <p>0822-9202-1678</p>
-          <p>tripananggung@outlook.com</p>
+          <p>triwahyupananggung10@gmail.com</p>
         </div>
         <a class="link" href="https://github.com">Github</a>
         <a
