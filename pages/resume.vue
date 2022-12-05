@@ -21,6 +21,17 @@
         <div class="experience">
           <h3>■ Experience</h3>
           <div class="list">
+            <span>Aug 2022 - Dec 2022</span>
+            <h1>Solusi Tiga Selaras</h1>
+          </div>
+          <p>
+            Solutif is a company focusing on providing Contact Center services
+            to our customers.With expertise in Talent Supply and Business
+            Process Outsourcing supported by Omni Channel & Engagement solutions
+            from Genesys. here I learn to be a full stack laravel developer
+          </p>
+
+          <div class="list">
             <span>Feb 2022 - Jul 2022</span>
             <h1>Nurul Fikri Computer</h1>
           </div>
@@ -79,7 +90,7 @@ export default {
   .list {
     display: flex;
     justify-content: flex-end;
-
+    margin-top: 8px;
     span {
       align-self: flex-end;
       @media screen and (max-width: $s-sm) {

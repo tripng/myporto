@@ -7,10 +7,10 @@
     <div class="parent-content">
       <div class="content">
         <h1 v-if="$route.params.slug == 'thriftAja'">
-          {{ $route.params.slug }} project will be published on 22-07-2022
+          {{ $route.params.slug }} project hasn't been published yet
         </h1>
         <h1 v-if="$route.params.slug == 'bkkbn'">
-          {{ $route.params.slug }} project will be published on 15-08-2022
+          {{ $route.params.slug }} project hasn't been published yet
         </h1>
       </div>
     </div>

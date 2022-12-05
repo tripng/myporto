@@ -10,13 +10,19 @@
           <p>0822-9202-1678</p>
           <p>triwahyupananggung10@gmail.com</p>
         </div>
-        <a class="link" href="https://github.com">Github</a>
+        <a class="link" href="https://github.com/tripng" target="_blank"
+          >Github</a
+        >
         <a
           class="link"
           href="https://www.linkedin.com/in/tri-pananggung-276b43188/"
+          target="_blank"
           >Linkedln</a
         >
-        <a class="link" href="https://www.instagram.com/triwahyu.png/"
+        <a
+          class="link"
+          href="https://www.instagram.com/triwahyu.png/"
+          target="_blank"
           >Instagram</a
         >
       </div>

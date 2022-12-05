@@ -25,7 +25,7 @@
           </p>
           <p>
             <span class="property">'programming language'</span> :
-            {'js','php','Python'},
+            {'Js','PHP','Python'},
           </p>
           <span>}</span>
         </div>

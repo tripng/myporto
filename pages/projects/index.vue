@@ -9,6 +9,15 @@
         <ul>
           <li>
             <a
+              href="https://talent.callon.id"
+              target="_blank"
+              class="link project-list"
+            >
+              <img src="~/assets/img/project/talent-callon.png" alt="" />
+              <span class="date">Apply For A Job / 2022</span>
+              <h1 class="project-title">Tallent Callon</h1>
+            </a>
+            <a
               href="https://ratihharry.netlify.app"
               target="_blank"
               class="link project-list"
@@ -23,7 +32,7 @@
               class="link project-list"
             >
               <img src="~/assets/img/project/mbkm.png" alt="" />
-              <span class="date">Personal / 2022</span>
+              <span class="date">Save Task / 2022</span>
               <h1 class="project-title">Assignment MBKM</h1>
             </a>
             <a
@@ -32,7 +41,7 @@
               class="link project-list"
             >
               <img src="~/assets/img/project/oldporto.png" alt="" />
-              <span class="date">Personal / 2022</span>
+              <span class="date">Portfolio / 2022</span>
               <h1 class="project-title">Old Portofolio</h1>
             </a>
             <ProjectLink
