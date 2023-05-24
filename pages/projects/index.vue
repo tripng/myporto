@@ -9,6 +9,15 @@
         <ul>
           <li>
             <a
+              href="https://elektro.um.ac.id/layanan/survey-gpm/"
+              target="_blank"
+              class="link project-list"
+            >
+              <img src="~/assets/img/project/talent-callon.png" alt="" />
+              <span class="date">Kuisioner / 2022</span>
+              <h1 class="project-title">Gugus Penjamin Mutu</h1>
+            </a>
+            <a
               href="https://talent.callon.id"
               target="_blank"
               class="link project-list"
