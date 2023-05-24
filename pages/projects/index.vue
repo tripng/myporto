@@ -13,7 +13,7 @@
               target="_blank"
               class="link project-list"
             >
-              <img src="~/assets/img/project/talent-callon.png" alt="" />
+              <img src="~/assets/img/project/gpm.png" alt="" />
               <span class="date">Kuisioner / 2022</span>
               <h1 class="project-title">Gugus Penjamin Mutu</h1>
             </a>
