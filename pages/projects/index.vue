@@ -27,15 +27,6 @@
               <h1 class="project-title">Tallent Callon</h1>
             </a>
             <a
-              href="https://talent.callon.id"
-              target="_blank"
-              class="link project-list"
-            >
-              <img src="~/assets/img/project/talent-callon.png" alt="" />
-              <span class="date">Apply For A Job / 2022</span>
-              <h1 class="project-title">Tallent Callon</h1>
-            </a>
-            <a
               href="https://ratihharry.netlify.app"
               target="_blank"
               class="link project-list"
