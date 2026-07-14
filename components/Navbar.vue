@@ -6,6 +6,7 @@
         :key="item.to"
         :to="item.to"
         :title="item.title"
+        :icon="item.icon"
         :exact="item.exact"
         class="link"
       />
@@ -22,23 +23,28 @@ export default {
         {
           to: '',
           title: 'Home',
+          icon: 'home',
         },
         {
           to: 'about',
           title: 'About Me',
+          icon: 'about',
         },
         {
           to: 'resume',
           title: 'Resume',
+          icon: 'resume',
         },
         {
           to: 'projects',
           title: 'Projects',
+          icon: 'projects',
           exact: false,
         },
         {
           to: 'contact',
           title: 'Contact',
+          icon: 'contact',
         },
       ],
     }
@@ -71,7 +77,45 @@ export default {
     @media screen and (max-width: $s-sm) {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.6em 1em;
       font-size: 0.9em;
+    }
+  }
+  .nav-icon {
+    display: none;
+    width: 1.6em;
+    height: 1.6em;
+    color: $c-light;
+    filter: grayscale(1);
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: $s-sm) {
+    ul {
+      justify-content: space-around;
+    }
+    .link {
+      border-bottom: none !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-text {
+      display: none;
+    }
+    .nav-icon {
+      display: block;
+    }
+    a.nuxt-link-active,
+    a.nuxt-link-exact-active {
+      .nav-icon {
+        color: $c-md-light;
+        filter: none;
+      }
     }
   }
 }

@@ -15,7 +15,7 @@
         >
         <a
           class="link"
-          href="https://www.linkedin.com/in/tri-pananggung-276b43188/"
+          href="https://www.linkedin.com/in/tri-pananggung/"
           target="_blank"
           >Linkedln</a
         >

@@ -13,19 +13,19 @@
             <span class="property">'name'</span> : 'Tri Wahyu Ade Firmansyah
             Pananggung',
           </p>
-          <p><span class="property">'place'</span> : ['Gorontalo','Malang'],</p>
+          <p><span class="property">'place'</span> : ['Gorontalo'],</p>
           <p>
-            <span class="property">'hoby'</span> : ['watching anime', 'playing
-            games'],
+            <span class="property">'hoby'</span> : ['watching movie',
+             'swimming', 'gym'],
           </p>
           <p><span class="property">'birthday'</span> : 28-09-2002,</p>
           <p>
-            <span class="property">'framework'</span> : {'Nuxt
-            JS','Laravel','CodeIgniter'},
+            <span class="property">'framework'</span> : {'Nuxt JS',
+            'Laravel', 'CodeIgniter', 'Vue.js', 'Electron', 'Flutter'},
           </p>
           <p>
-            <span class="property">'programming language'</span> :
-            {'Js','PHP','Python'},
+            <span class="property">'programming language'</span> : {'Js',
+            'PHP', 'Python', 'Dart'},
           </p>
           <span>}</span>
         </div>
@@ -52,6 +52,10 @@ export default {
     position: absolute;
     bottom: 0;
     right: 0;
+    @media screen and (max-width: $s-sm) {
+      position: static;
+      padding: 0 4px;
+    }
     img {
       display: block;
       margin: auto;

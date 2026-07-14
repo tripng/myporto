@@ -15,7 +15,7 @@ export default {
     },
     desc: {
       type: String,
-      default: 'Informatics Engineering Student',
+      default: 'Code Is Fun',
     },
   },
 }

@@ -64,8 +64,27 @@ export default {
     position: absolute;
     left: 0;
     bottom: -90%;
+    width: clamp(180px, 22vw, 300px);
+    height: auto;
     transform-style: preserve-3d;
     animation: projectImage 1s;
+
+    @media screen and (max-width: $s-sm) {
+      position: static;
+      display: none;
+      width: 70%;
+      max-width: 320px;
+      margin: 12px auto 0;
+      bottom: auto;
+      left: auto;
+    }
+  }
+
+  &:focus-within > img,
+  &:active > img {
+    @media screen and (max-width: $s-sm) {
+      display: block;
+    }
   }
 
   .project-title {

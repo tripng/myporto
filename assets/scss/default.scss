@@ -18,6 +18,16 @@
       padding: 40px 0;
       @media screen and (max-width: $s-sm) {
         flex-direction: column;
+        padding: 16px;
+        gap: 1.2em;
+      }
+      .head {
+        @media screen and (max-width: $s-sm) {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          margin-bottom: 0.3em;
+        }
       }
       .parent-content {
         position: relative;
@@ -28,8 +38,15 @@
         &::-webkit-scrollbar {
           display: none;
         }
+        @media screen and (max-width: $s-sm) {
+          width: 100%;
+          padding: 0 4px;
+        }
         .content {
           color: $c-light;
+          @media screen and (max-width: $s-sm) {
+            padding: 0 4px;
+          }
           h2 {
             font-weight: bold;
           }

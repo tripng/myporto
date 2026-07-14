@@ -6,20 +6,36 @@
     </div>
     <div class="parent-content">
       <div class="content">
-        <div class="course">
-          <h3>■ Course</h3>
-          <div class="list">
-            <span>Feb 2022 - Apr 2022</span>
-            <h1>Codepolitan X PZN</h1>
-          </div>
-          <p>
-            Learning program provided by codepolitan and taught by professional
-            programmers from Programmer Zaman Now here I learn backend for web
-            development, from basics to using the Laravel framework.
-          </p>
-        </div>
+
         <div class="experience">
           <h3>■ Experience</h3>
+          <div class="list">
+            <span>2025 - Now</span>
+            <h1>MAN 1 Kota Gorontalo</h1>
+          </div>
+          <p>
+            Working as a technician handling IT infrastructure, computer
+            networks, and technical support for academic and administrative
+            activities at the school.
+          </p>
+
+          <div class="list">
+            <span>2024 - 2025</span>
+            <h1>Jayatama Information System</h1>
+          </div>
+          <p>
+            Developed and maintained web-based information systems, building
+            features across the full stack to support business operations.
+          </p>
+
+          <div class="list">
+            <span>2024 - 2025</span>
+            <h1>Trans TV</h1>
+          </div>
+          <p>
+          Responsible for the development and maintenance of Trans TV's internal applications to support the company's smooth operations. Managed the full software development lifecycle (SDLC) by building interfaces and backend logic using CodeIgniter and MySQL. In addition, designed data integration services using Node.js and implemented automation architectures and advanced data processing using Python to create a reliable and efficient internal digital ecosystem.
+          </p>
+
           <div class="list">
             <span>Aug 2022 - Dec 2022</span>
             <h1>Solusi Tiga Selaras</h1>
@@ -57,6 +73,38 @@
             <span>Mar 2016 - 2019</span>
             <h1>Madrasah Aliyah Gorontalo</h1>
           </div>
+        </div>
+        <div class="course">
+          <h3>■ Course</h3>
+          <div class="list">
+            <span>Feb 2022 - Apr 2022</span>
+            <h1>Codepolitan X PZN</h1>
+          </div>
+          <p>
+          Learning program provided by codepolitan and taught by professional
+          programmers from Programmer Zaman Now here I learn backend for web
+          development, from basics to using the Laravel framework.
+          </p>
+
+          <div class="list">
+            <span>2023 - Now</span>
+            <h1>freeCodeCamp</h1>
+          </div>
+          <p>
+          Self-paced certification courses covering responsive web design,
+          JavaScript algorithms, front end development libraries, and APIs —
+          building hands-on projects to strengthen full stack fundamentals.
+          </p>
+
+          <div class="list">
+            <span>2023 - Now</span>
+            <h1>Coursera</h1>
+          </div>
+          <p>
+          Online specializations and guided projects across web development,
+          cloud, and data — learning from university and industry partners at
+          my own pace.
+          </p>
         </div>
       </div>
     </div>
